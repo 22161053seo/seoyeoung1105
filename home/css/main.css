@@ -1,0 +1,28 @@
+body {
+    height: 4000px;
+
+}
+.meterial-symbols-outlined{
+    font-variation-settings:
+    'FILL' 0,
+    'wght' 400,
+    'GRAD' 0,
+    'opsz' 48
+}
+#scrollTop{
+    /* border: 1px solid red; */
+    border: red;
+    position: fixed;
+    bottom: 50px;
+    right: 50px;
+    font-weight: bold;
+}
+#scrollTop:hover{
+    color: red;
+    cursor: pointer;
+}
+#scrollTop>span{
+    display: block;
+    font-variation-settings: 'wght' 800;
+}
+
